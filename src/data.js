@@ -8,7 +8,8 @@ export default [
     endDate: "3 de Detembro de 2022",
     description:
       "Costa Nova has the finest beach in Aveiro. It's a delightful village famed for its magnificent sandy coastline and colorful beach houses. These charming seaside homes are painted in traditional striped patterns. A popular destination for foreign people and Portuguese tourists alike.",
-    coverImg: "/costa_rica.jpg",
+    coverImg: "/costa_rica.webp",
+    alt: "houses from Costa Nova",
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ export default [
     endDate: "25 de Fevereiro de 2020",
     description:
       "Porto is a fascinating and vibrant city that has so much to offer as a holiday or city break destination. There is a lot to love about Porto and the diversity of the city will appeal to a wide range of visitors.",
-    coverImg: "/porto.jpg",
+    coverImg: "/porto.webp",
+    alt: "Picture of Porto",
   },
   {
     id: 3,
@@ -30,7 +32,8 @@ export default [
     endDate: "8 de Janeiro de 2015",
     description:
       "Lisbon is the stunning capital city of Portugal and is one of the most charismatic and vibrant cities in Europe. It's a city that effortlessly blends traditional heritage, with striking modernism.",
-    coverImg: "/lisboa.jpg",
+    coverImg: "/lisboa.webp",
+    alt: "picture of Lisbon view",
   },
   {
     id: 4,
@@ -41,6 +44,7 @@ export default [
     endDate: "04 de Setembro de 2011",
     description:
       "Rising scenically from the Rio Mondego, Coimbra is an animated city steeped in history. It was Portugal’s medieval capital for more than a century and it's home to the country’s oldest and most prestigious university.",
-    coverImg: "/coimbra.jpg",
+    coverImg: "/coimbra.webp",
+    alt: "picture of Coimbra",
   },
 ];

@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import data from "./data";
-import "./App.css";
+import "./AppMin.css";
 
 function App() {
   const cards = data.map((data) => {

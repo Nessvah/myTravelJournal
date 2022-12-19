@@ -2,11 +2,11 @@ export default function Card(props) {
   return (
     <section className="card">
       <div className="card--img">
-        <img src={props.coverImg}></img>
+        <img src={props.coverImg} alt={props.alt}></img>
       </div>
       <div className="card--content">
         <div className="card--location">
-          <img src="/marker.svg" width="40px"></img>
+          <img src="/marker.svg" width="40px" alt=""></img>
           <p>{props.location}</p>
           <a href={props.link} className="card--link">
             View on Google Maps
