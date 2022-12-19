@@ -2,9 +2,9 @@
 
 ## Demo
 
-[Live Demo]
+[Live Demo](https://nessvah-traveljournal.netlify.app/)
 
-[![Netlify Status]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a9577d22-8455-47a6-8523-51e081765704/deploy-status)](https://app.netlify.com/sites/nessvah-traveljournal/deploys)
 
 ## 📚 About the project: 
 
