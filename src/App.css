@@ -1,0 +1,113 @@
+nav {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f55a5a;
+  color: #fff;
+}
+
+/* -------- CARD STYLES ------------*/
+/*-----------------------------------*/
+
+section {
+  margin: 6rem auto;
+}
+
+.card {
+  width: 80rem;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4rem;
+}
+
+.card--img {
+  width: 40rem;
+}
+
+.card--img img {
+  border-radius: 10px;
+  max-height: 50rem;
+}
+
+.card--location {
+  height: 20px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 1rem;
+}
+
+.card--link:link {
+  padding-left: 2rem;
+  color: #918e9b;
+}
+
+.card--link:visited {
+  color: #f55a5a;
+}
+
+.card--link:hover,
+.card--link:active,
+.card--link:focus {
+  color: #eb2c2c;
+}
+
+.card--content {
+  padding-top: 0.4rem;
+  max-width: 40rem;
+}
+.card--description {
+  padding-left: 1.2rem;
+}
+
+/*--------FOOTER STYLES----------*/
+/*-------------------------------*/
+
+footer {
+  height: 15vh;
+  display: flex;
+  background-color: #f55a5a;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.footer--img img {
+  height: 6rem;
+}
+
+.footer--link {
+  color: black;
+  padding-left: 0.4rem;
+  text-decoration: underline;
+}
+
+/*-------- MEDIA QUERIES ----------*/
+/*---------------------------------*/
+
+@media only screen and (max-width: 900px) {
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+  }
+
+  .card--img {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  footer {
+    padding: 0 2rem;
+  }
+}
